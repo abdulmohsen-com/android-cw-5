@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00adb5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="32dp"
+        android:text="صيدلية مسار الأندرويد"
+        android:textColor="#222831"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="325dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="258dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="412dp"
+        android:text="الرجاء إدخال البيانات التالية:"
+        android:textColor="#222831"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="69dp"
+        android:background="#222831"
+        android:textColor="#00adb5"
+        android:text="Next" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="118dp"
+        android:layout_height="128dp"
+        android:layout_above="@+id/text"
+        android:layout_alignStart="@+id/text"
+        android:layout_alignEnd="@+id/text"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>
